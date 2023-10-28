@@ -15,9 +15,7 @@ function addLinha() {
   const inputNumContato = document.getElementById("num-contato");
 
   if (contato.includes(inputContatoAgenda.value)) {
-    alert(
-      `Esse Contato : <strong> ${inputContatoAgenda.value} </strong> Ja foi inserido`
-    );
+    alert(`Esse Contato: ${inputContatoAgenda.value} Ja foi inserido`);
   } else {
     contato.push(inputContatoAgenda.value);
     numero.push(parseFloat(inputNumContato.value));
